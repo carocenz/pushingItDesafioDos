@@ -1,0 +1,14 @@
+{
+    "tareas": {
+        "tarea1": "Hacer las compras.",
+        "tarea2": "Hacer la tarea.",
+        "tarea3": "Cocinar.",
+        "tarea4": "Sacar al perro.",
+        "tarea5": "Limpiar."
+    },
+
+    "env": {
+        "user": "caropushingit",
+        "password": "123456!"
+    }
+}
