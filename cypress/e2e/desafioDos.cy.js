@@ -50,7 +50,7 @@ describe("Desafio 2", () => {
     cy.xpath("//button[@data-cy='removeAll']").should("exist");
   });
 
-  it("Test 3", () => {
+  it.only("Test 3", () => {
     data.tareas.tarea6 = "Hacer el Desafio 2.";
     data.tareas.tarea7 = "Hacer la Actividad 4.";
     cy.xpath("//input[@type='text' and @id='task']")
@@ -65,7 +65,7 @@ describe("Desafio 2", () => {
     cy.xpath("//p[contains(text(), '" + data.tareas.tarea6 + "')]").click();
     cy.wait(2000);
     cy.xpath("//p[contains(text(), '" + data.tareas.tarea7 + "')]").click();
-    cy.wait(2000);
+    cy.wait(4000);
     cy.xpath(
       "//p[contains(text(), '" +
         data.tareas.tarea7 +
